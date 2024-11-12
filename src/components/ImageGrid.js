@@ -11,12 +11,25 @@ import img6 from '../assets/img6.jpg';
 import img7 from '../assets/img7.jpg';
 import img8 from '../assets/img8.jpg';
 import img9 from '../assets/img9.jpg';
+import dashback from '../assets/dashback.jpg';
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
+// const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
+const images = [dashback];
 
 function ImageGrid() {
   return (
-    <div className="grid grid-cols-3 gap-4 p-4">
+    // <div className="grid grid-cols-3 gap-4 p-4">
+    //   {images.map((image, index) => (
+    //     <div key={index} className="relative">
+    //       <img 
+    //         src={image} 
+    //         alt={`img${index + 1}`} 
+    //         className="w-full h-full object-cover rounded-lg"
+    //       />
+    //     </div>
+    //   ))}
+    // </div>
+    <div className="grid grid-cols-1 gap-4 p-4">
       {images.map((image, index) => (
         <div key={index} className="relative">
           <img 
