@@ -10,6 +10,7 @@ import ImageGrid from './components/ImageGrid';
 function App() {
   return (
     <div className="bg-black text-white min-h-screen">
+      <Homepage />
       <Navbar />
       <SearchBar />
       <ImageGrid />
@@ -17,13 +18,5 @@ function App() {
   );
 }
 
-
-function App1() {
-  return (
-    <div className="App">
-      <Homepage />
-    </div>
-  );
-}
 
 export default App;

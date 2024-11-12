@@ -27,7 +27,7 @@ function SearchBar() {
   };
 
   return (
-    <div className="flex flex-col items-center mt-8">
+    <div className="flex flex-col items-center">
       <div className="relative w-1/3">
         <input 
           type="text" 
